@@ -6,12 +6,12 @@ In the hypothetical scenario driving this project, we have been approached by th
 
 # Methods and Approach
 ## Data Collection
-I took two general approaches in data collection for this project. The first was to obtain as much data as possible at the individual hospital level, with the idea being that quantitative accounting of what transpires in the hospital during inpatient (and, in some cases, outpatient) stays from admission to release will have a lot to say about whether or not patients return to the hospital. For this "Within Hospital" data, a number of csv files(>10) were obtained from the CMS website data repository (https://data.cms.gov/provider-data/sites/default/files/resources/). This "Within Hospital" data included:
-*Proportions of initial admissions due to different reasons, including those in CMS’ own formula (heart failure, COPD, hip-knee replacement, heart attack, pneumonia, COPD, coronary artery bypass graft surgery)
-*Rates of different types of infections during inpatient stay
-*CMS computed Patient Safety and Adverse events rates during inpatient stay
-*HCAHPS-Related Features (Patient Survey Star ratings from inpatient stay)
-*Various other measures from other aspects of hospital care (e.g., emergency department efficiency metrics and hospital worker vaccination rates)
+I took two general approaches in data collection for this project. The first was to obtain as much data as possible at the individual hospital level, with the idea being that quantitative accounting of what transpires in the hospital during inpatient (and, in some cases, outpatient) stays from admission to release will have a lot to say about whether or not patients return to the hospital. For this "Within Hospital" data, a number of csv files(>10) were obtained from the CMS website data repository (https://data.cms.gov/provider-data/sites/default/files/resources/). This "Within Hospital" data included:                                                   
+* Proportions of initial admissions due to different reasons, including those in CMS’ own formula (heart failure, COPD, hip-knee replacement, heart attack, pneumonia, COPD, coronary artery bypass graft surgery)
+* Rates of different types of infections during inpatient stay
+* CMS computed Patient Safety and Adverse events rates during inpatient stay
+* HCAHPS-Related Features (Patient Survey Star ratings from inpatient stay)
+* Various other measures from other aspects of hospital care (e.g., emergency department efficiency metrics and hospital worker vaccination rates)
 
 The second data collection approach was focused on the collection of demographic and socioeconomic data at the country level. The rationale being that these types of data ("County-Level Demographic and Socioeconomic Data") would be useful for the development of features that provide context to "Within Hospital" data. From the Bureau of Economic Analysis data archive (https://www.bea.gov/sites/default/files/), I obtained csv files containing county level data on median income. From the US Census Bureau data archive (https://www2.census.gov/programs-surveys/popest/tables/2010-2019/counties/) I obtained data on county level population and median age. 
 
